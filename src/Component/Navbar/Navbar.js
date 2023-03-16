@@ -4,9 +4,9 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <div className="wraper bg-[#202124] h-10 text-white border-b border-[#4d4d4d]">
+    <div className="wraper bg-[#202124] w-full h-10 text-white border-b border-[#4d4d4d]">
       <div className="w-full">
-        <ul className="navdiv flex flex-row gap-16 items-center justify-start tracking-wide font-[roboto] text-[#bdc1c6] px-20 ">
+        <ul className="navdiv w-full overflow-scroll flex flex-row gap-16 items-center justify-start tracking-wide font-[roboto] text-[#bdc1c6] px-20 ">
           <Link className="cursor-pointer hover:text-white" to="/NewsWebsite"> Home </Link>
           <Link className="cursor-pointer hover:text-white" to="/business">
             Business
