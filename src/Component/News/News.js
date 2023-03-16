@@ -1,6 +1,8 @@
-import React from "react";
+import React, { Children } from "react";
 
 export default function News() {
+
+
   // inislization of API key
   let Api =
     "https://newsapi.org/v2/everything?q=apple&from=2023-03-12&to=2023-03-12&sortBy=popularity&apiKey=73900edf355043a6b40cbbdadea3f987";

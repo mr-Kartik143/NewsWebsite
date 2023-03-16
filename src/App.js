@@ -15,7 +15,7 @@ function App() {
       <Heading />
       <Navbar />
       <Routes>
-        <Route path="/" element=<News /> />
+        <Route path="/NewsWebsite" element=<News /> />
         <Route path="/india" element=<News/> />
         <Route path="/business" element=<News/> />
         <Route path="/entertainment" element=<News/> />
